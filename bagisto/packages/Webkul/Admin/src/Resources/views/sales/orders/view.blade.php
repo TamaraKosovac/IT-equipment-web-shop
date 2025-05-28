@@ -133,10 +133,17 @@
 
                             <div class="flex justify-between gap-2.5 border-b border-slate-300 px-4 py-6 dark:border-gray-800">
                                 <div class="flex gap-2.5">
-                                    @if($item?->product?->base_image_url)
+                                    @php
+                                        $imagePath = \Webkul\Product\Models\ProductImage::where('product_id', $item->product_id)
+                                            ->where('position', 1)
+                                            ->value('path');
+                                    @endphp
+
+                                    @if ($imagePath)
                                         <img
                                             class="relative h-[60px] max-h-[60px] w-full max-w-[60px] rounded"
-                                            src="{{ $item?->product->base_image_url }}"
+                                            src="{{ asset('storage/' . $imagePath) }}"
+                                            alt="{{ $item->name }}"
                                         >
                                     @else
                                         <div class="relative h-[60px] max-h-[60px] w-full max-w-[60px] rounded border border-dashed border-gray-300 dark:border-gray-800 dark:mix-blend-exclusion dark:invert">
