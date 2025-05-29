@@ -380,7 +380,7 @@ return [
 ],
 
 'components' => [
-'accordion' => [
+   'accordion' => [
 'default-content' => 'Podrazumevani sadržaj',
 'default-header' => 'Podrazumevani zaglavlje',
 ],
@@ -482,7 +482,10 @@ return [
 
 'custom-filters' => [
     'clear-all' => 'Obriši sve',
-],
+   ],
+ ],
+]
+
 
 'table' => [
     'actions'              => 'Akcije',
@@ -494,6 +497,7 @@ return [
     'previous-page'        => 'Prethodna stranica',
     'showing'              => 'Prikazano :firstItem',
     'to'                   => 'do :lastItem',
+],
 ],
 
 'modal' => [
@@ -546,6 +550,8 @@ return [
     'decrease-quantity' => 'Smanji količinu',
     'increase-quantity' => 'Povećaj količinu',
 ],
+]
+
 
 'products' => [
     'prices' => [
@@ -852,7 +858,9 @@ return [
     'email'    => 'Email',
     'password' => 'Lozinka',
     'title'    => 'Prijava',
+  ],
 ],
+
 
 'home' => [
     'contact' => [
@@ -996,7 +1004,7 @@ return [
             'summary'  => 'Pregled porudžbine',
             'title'    => 'Porudžbina je potvrđena!',
         ],
-    ],
+    
 'invoiced' => [
     'greeting' => 'Vaša faktura #:invoice_id za porudžbinu :order_id kreirana dana :created_at',
     'subject'  => 'Potvrda nove fakture',
@@ -1054,5 +1062,6 @@ return [
 
        ],
     ],
-];
+  ];  
+
 
