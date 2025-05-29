@@ -1052,4 +1052,7 @@ return [
 'tax'                        => 'Porez',
 'tracking-number'            => 'Broj za praćenje: :tracking_number',
 
+       ],
+    ],
+];
 
