@@ -484,8 +484,7 @@ return [
     'clear-all' => 'Obriši sve',
    ],
  ],
-]
-
+],
 
 'table' => [
     'actions'              => 'Akcije',
@@ -550,7 +549,7 @@ return [
     'decrease-quantity' => 'Smanji količinu',
     'increase-quantity' => 'Povećaj količinu',
 ],
-]
+],
 
 
 'products' => [
