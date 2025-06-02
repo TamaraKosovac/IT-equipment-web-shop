@@ -8,8 +8,8 @@ return [
 
     'currency-position' => [
         'options' => [
-            'left'             => 'Levo',
-            'left-with-space'  => 'Levo sa razmakom',
+            'left'             => 'Lijevo',
+            'left-with-space'  => 'Lijevo sa razmakom',
             'right'            => 'Desno',
             'right-with-space' => 'Desno sa razmakom',
         ],

@@ -21,7 +21,7 @@ return [
             'validation' => [
                 'errors' => [
                     'duplicate-url-key'         => 'URL ključ: \'%s\' je već generisan za stavku sa SKU: \'%s\'.',
-                    'invalid-attribute-family'  => 'Nevažeća vrednost u koloni porodice atributa (porodica atributa ne postoji?)',
+                    'invalid-attribute-family'  => 'Nevažeća vrijednost u koloni porodice atributa (porodica atributa ne postoji?)',
                     'invalid-type'              => 'Tip proizvoda je nevažeći ili nije podržan',
                     'sku-not-found'             => 'Proizvod sa navedenim SKU nije pronađen',
                     'super-attribute-not-found' => 'Super atribut sa kodom: \'%s\' nije pronađen ili ne pripada porodici atributa: \'%s\'',
@@ -49,7 +49,7 @@ return [
             'column-numbers'       => 'Broj kolona se ne poklapa sa brojem redova u zaglavlju.',
             'invalid-attribute'    => 'Zaglavlje sadrži nevažeći atribut(e): "%s".',
             'system'               => 'Došlo je do neočekivane sistemske greške.',
-            'wrong-quotes'         => 'Koriste se uvijene navodnike umesto ravnih navodnika.',
+            'wrong-quotes'         => 'Koriste se uvijeni navodnici umjesto ravnih navodnika.',
         ],
     ],
 ];
