@@ -172,7 +172,7 @@
 
                                     <x-admin::form.control-group class="last:!mb-0">
                                         <x-admin::form.control-group.label>
-                                            {!! $attribute->admin_name . ($attribute->is_required ? '<span class="required"></span>' : '') !!}
+                                            {{ __('admin::app.catalog.products.attributes.' . $attribute->code) }} {!! $attribute->is_required ? '<span class="required"></span>' : '' !!}
 
                                             @if (
                                                 $attribute->value_per_channel

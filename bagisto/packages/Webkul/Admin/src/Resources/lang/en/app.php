@@ -727,6 +727,36 @@ return [
 
     'catalog' => [
         'products' => [
+            'attributes' => [
+                'price' => 'Price',
+                'cost' => 'Cost',
+                'special_price' => 'Special Price',
+                'special_price_from' => 'Special Price From',
+                'special_price_to' => 'Special Price To',
+                'sku' => 'SKU',
+                'product_number' => 'Product Number',
+                'name' => 'Name',
+                'url_key' => 'URL Key',
+                'tax_category_id' => 'Tax Category',
+                'color' => 'Color',
+                'size' => 'Size',
+                'brand' => 'Brand',
+                'short_description' => 'Short Description',
+                'description' => 'Description',
+                'meta_title' => 'Meta Title',
+                'meta_keywords' => 'Meta Keywords',
+                'meta_description' => 'Meta Description',
+                'length' => 'Length',
+                'width' => 'Width',
+                'height' => 'Height',
+                'weight' => 'Weight',
+                'new' => 'New',
+                'featured' => 'Featured',
+                'visible_individually' => 'Visible',
+                'status' => 'Status',
+                'guest_checkout' => 'Checkout',
+                'manage_stock' => 'Stock',
+                ],
             'index' => [
                 'already-taken' => 'The :name has already been taken.',
                 'create-btn'    => 'Create Product',
@@ -742,7 +772,7 @@ return [
                     'title'                   => 'Create New Product',
                     'type'                    => 'Type',
                 ],
-
+ 
                 'datagrid' => [
                     'active'                 => 'Active',
                     'attribute-family-value' => 'Attribute Family - :attribute_family',
