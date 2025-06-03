@@ -54,7 +54,7 @@ return [
     'ends_with'         => ':attribute mora da se završava sa: :values.',
     'enum'              => 'Odabrani :attribute nije ispravan.',
     'exists'            => 'Odabrani :attribute nije ispravan.',
-    'extensions'        => ':attribute mora imati jednu od sledećih ekstenzija: :values.',
+    'extensions'        => ':attribute mora imati jednu od sljedećih ekstenzija: :values.',
     'file'              => ':attribute mora biti fajl.',
     'filled'            => ':attribute mora imati neku vrijednost.',
 
@@ -123,7 +123,7 @@ return [
     'missing_unless'   => ':attribute mora nedostajati osim ako :other nije :value.',
     'missing_with'     => ':attribute mora nedostajati kada je prisutno :values.',
     'missing_with_all' => ':attribute mora nedostajati kada su prisutni: :values.',
-    'multiple_of'      => ':attribute mora biti višekratnik broja :value.',
+    'multiple_of'      => ':attribute mora imati veći broj ponudjenih opcija broja :value.',
     'not_in'           => 'Odabrani :attribute nije ispravan.',
     'not_regex'        => 'Format polja :attribute nije ispravan.',
     'numeric'          => ':attribute mora biti broj.',
