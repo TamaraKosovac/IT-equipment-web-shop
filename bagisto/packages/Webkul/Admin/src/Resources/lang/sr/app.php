@@ -795,6 +795,7 @@ return [
                 ],
 
                 'price' => [
+                    'title' => 'Cijena',
                     'group' => [
                         'add-group-price' => 'Dodaj grupnu cijenu',
                         'all-groups' => 'Sve grupe',
@@ -830,6 +831,26 @@ return [
 
                 'categories' => [
                     'title' => 'Kategorije',
+                ],
+
+                'settings' => [
+                    'title' => 'Podešavanja',
+                ],
+
+                'shipping' => [
+                    'title' => 'Dostava',
+                ],
+
+                'meta_description' => [
+                    'title' => 'Opis meta podataka',
+                ],
+
+                'general' => [
+                    'title' => 'Opšte',
+                ],
+
+                'description' => [
+                    'title' => 'Opis',
                 ],
 
                 'images' => [

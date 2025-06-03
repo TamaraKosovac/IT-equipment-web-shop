@@ -160,7 +160,7 @@
 
                             <div class="box-shadow relative rounded bg-white p-4 dark:bg-gray-900">
                                 <p class="mb-4 text-base font-semibold text-gray-800 dark:text-white">
-                                    {{ $group->name }}
+                                    @lang('admin::app.catalog.products.edit.' . $group->code . '.title')
                                 </p>
 
                                 @if ($group->code == 'meta_description')

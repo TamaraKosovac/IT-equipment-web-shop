@@ -783,6 +783,7 @@ return [
                 ],
 
                 'price' => [
+                    'title' => 'Price',
                     'group' => [
                         'add-group-price'           => 'Add Group Price',
                         'all-groups'                => 'All Groups',
@@ -817,6 +818,26 @@ return [
 
                 'categories' => [
                     'title' => 'Categories',
+                ],
+
+                'settings' => [
+                    'title' => 'Settings',
+                ],
+
+                'shipping' => [
+                    'title' => 'Shipping',
+                ],
+
+                'meta_description' => [
+                    'title' => 'Meta description',
+                ],
+
+                'general' => [
+                    'title' => 'General',
+                ],
+
+                'description' => [
+                    'title' => 'Description',
                 ],
 
                 'images' => [
