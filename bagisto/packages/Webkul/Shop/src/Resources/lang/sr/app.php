@@ -63,11 +63,11 @@ return [
 'sign-in-button' => 'Prijavite se',
 'subscribe-to-newsletter' => 'Pretplatite se na bilten',
 'success' => 'Nalog je uspešno kreiran.',
-'success-verify' => 'Nalog je uspešno kreiran, e-pošta je poslata za verifikaciju.',
-'success-verify-email-unsent' => 'Nalog je uspešno kreiran, ali e-pošta za verifikaciju nije poslata.',
+'success-verify' => 'Nalog je uspešno kreiran, e-mail je poslat za verifikaciju.',
+'success-verify-email-unsent' => 'Nalog je uspešno kreiran, ali e-mail za verifikaciju nije poslat.',
 'verification-not-sent' => 'Greška! Problem pri slanju verifikacione e-pošte, pokušajte ponovo kasnije.',
 'verification-sent' => 'Verifikaciona e-pošta poslata',
-'verified' => 'Vaš nalog je verifikovan, pokušajte da se sada prijavite.',
+'verified' => 'Vaš nalog je verifikovan, pokušajte da se prijavite sada.',
 'verify-failed' => 'Ne možemo da verifikujemo vaš imejl nalog.',
 ],
 
@@ -88,7 +88,7 @@ return [
 'first-name' => 'Ime',
 'gender' => 'Pol',
 'last-name' => 'Prezime',
-'order-pending' => 'Ne mogu da obrišem nalog kupca jer su neke porudžbine na čekanju ili u stanju obrade.',
+'order-pending' => 'Nemoguće obrisati nalog kupca jer su neke porudžbine na čekanju ili u stanju obrade.',
 'title' => 'Profil',
 'unmatched' => 'Stara lozinka se ne podudara.',
 'wrong-password' => 'Pogrešna lozinka!',
@@ -105,12 +105,12 @@ return [
 'first-name' => 'Ime',
 'gender' => 'Pol',
 'last-name' => 'Prezime',
-'muškarac' => 'Muškarac',
-'nova-lozinka' => 'Nova lozinka',
+'gender' => 'Pol',
+'new-password' => 'Nova lozinka',
 'other' => 'Ostalo',
-'telefon' => 'Telefon',
+'phone' => 'Telefon',
 'save' => 'Sačuvaj',
-'pretplati se na bilten' => 'Pretplati se na bilten',
+'subscribe-to-newsletter' => 'Pretplati se na bilten',
 ],
 ],
 
@@ -248,7 +248,7 @@ return [
 
 'invoices' => [
 'discount' => 'Popust',
-'excl-tax' => 'Bez Porez:',
+'excl-tax' => 'Bez Poreza:',
 'grand-total' => 'Ukupan iznos',
 'individual-invoice' => 'Broj fakture: invoice_id',
 'invoices' => 'Fakture',
@@ -267,23 +267,23 @@ return [
 'tax' => 'Porez',
 'tax-amount' => 'Iznos poreza',
 ],
-'pošiljke' => [
-'individualna-pošiljka' => 'Broj pošiljke: id_pošiljke',
-'naziv-proizvoda' => 'Ime',
-'kol.' => 'Količina',
-'pošiljke' => 'Pošiljke',
-'šifra proizvoda' => 'Artikal',
-'međuiznos' => 'Međuiznos',
-'broj za praćenje' => 'Broj za praćenje',
+'shipments' => [
+'individual-shipment' => 'Broj pošiljke #:shipment_id',
+'product-name' => 'Ime',
+'qty' => 'Količina',
+'shipments' => 'Pošiljke',
+'sku' => 'SKU',
+'subtotal' => 'Međuiznos',
+'tracking-number' => 'Broj za praćenje',
 ],
 
-'povraćaji novca' => [
-'naknada za prilagođavanje' => 'Naknada za prilagođavanje',
-'naknada za prilagođavanje' => 'Povraćaj novca za prilagođavanje',
-'popust' => 'Popust',
-'ukupno' => 'Ukupan iznos',
-'individualno-povraćanje novca' => 'Povraćaj novca: id_povratka',
-'nije pronađen-rezultat' => 'Nismo mogli da pronađemo bilo koji zapisi.',
+'refunds' => [
+'adjustment-fee' => 'Naknada za prilagođavanje',
+'adjustment-refund' => 'Povraćaj novca za prilagođavanje',
+'discount' => 'Popust',
+'grand-total' => 'Ukupan iznos',
+'individual-refund' => 'Povraćaj novca: id_povratka',
+'no-result-found' => 'Nismo mogli da pronađemo bilo koji zapisi.',
 'order-summary' => 'Rezime porudžbine',
 'price' => 'Cena',
 'product-name' => 'Naziv',
@@ -292,23 +292,23 @@ return [
 'shipping-handling' => 'Troškovi isporuke i rukovanja',
 'shipping-handling-excl-tax' => 'Troškovi isporuke i rukovanja (bez PDV-a)',
 'shipping-handling-incl-tax' => 'Troškovi isporuke i rukovanja (sa PDV-om)',
-'sku' => 'SKU',
+'sku' => 'SKU (Šifra proizvoda)',
 'subtotal' => 'Međuiznos',
 'subtotal-excl-tax' => 'Međuiznos (bez PDV-a)',
 'subtotal-incl-tax' => 'Međuiznos (sa PDV-om)',
 'tax' => 'Porez',
-'iznos-poreza' => 'Iznos poreza',
+'tax-amount' => 'Iznos poreza',
 ],
 ],
 
-'faktura-pdf' => [
-'detalji-banka' => 'Bankovni podaci',
-'naplatiti' => 'Plati na',
-'broj-kontakata' => 'Kontakt broj',
-'kontakt' => 'Kontakt',
-'datum' => 'Datum fakture',
-'popust' => 'Popust',
-'bez-poreza' => 'Bez Porez:',
+'invoice-pdf' => [
+'bank-details' => 'Bankovni podaci',
+'bill-to' => 'Račun za',
+'contact-number' => 'Kontakt broj',
+'contact' => 'Kontakt',
+'date' => 'Datum fakture',
+'discount' => 'Popust',
+'excl-tax' => 'Bez Poreza:',
 'grand-total' => 'Ukupan iznos',
 'invoice-id' => 'ID fakture',
 'invoice' => 'Faktura',
@@ -316,7 +316,7 @@ return [
 'order-id' => 'ID porudžbine',
 'payment-method' => 'Način plaćanja',
 'payment-terms' => 'Uslovi plaćanja',
-'price' => 'Cena',
+'price' => 'Cijena',
 'product-name' => 'Naziv proizvoda',
 'qty' => 'Količina',
 'ship-to' => 'Isporuka na',
@@ -331,7 +331,7 @@ return [
 
 'tax-amount' => 'Iznos poreza',
 'tax' => 'Porez',
-'pt-number' => 'PDV broj',
+'vat-number' => 'PDV broj',
 ],
 ],
 
@@ -419,19 +419,19 @@ return [
 
 'desktop' => [
 'top' => [
-'default-locale' => 'Podrazumevani lokal',
+'default-locale' => 'Podrazumevani lokalni jezik',
 ],
 ],
 
 'mobile' => [
 'currencies' => 'Valute',
-'locales' => 'Lokali',
+'locales' => 'Lokalni jezik',
 'login' => 'Registrujte se ili prijavite',
 ],
 ],
 
 'footer' => [
-'about-us' => 'O nama Nas',
+'about-us' => 'O nama ',
 'contact-us' => 'Kontaktirajte nas',
 'currency' => 'Valuta',
 'customer-service' => 'Korisnička služba',
@@ -500,8 +500,8 @@ return [
 ],
 
 'modal' => [
-    'default-content' => 'Podrazumevani sadržaj',
-    'default-header'  => 'Podrazumevani naslov',
+    'default-content' => 'Podrazumijevani sadržaj',
+    'default-header'  => 'Podrazumijevani naslov',
 
     'confirm' => [
         'agree-btn'    => 'Slažem se',
@@ -524,7 +524,7 @@ return [
     ],
 
     'carousel' => [
-        'next'     => 'Sledeće',
+        'next'     => 'Sljedeće',
         'previous' => 'Prethodno',
         'view-all' => 'Prikaži sve',
     ],
@@ -541,7 +541,7 @@ return [
 ],
 'carousel' => [
     'image-slide' => 'Slajd slike',
-    'next'        => 'Sledeće',
+    'next'        => 'Sljedeće',
     'previous'    => 'Prethodno',
 ],
 
@@ -604,10 +604,10 @@ return [
             'failed-to-upload' => 'Otpremanje slike nije uspelo',
             'load-more'        => 'Učitaj još',
             'name'             => 'Ime',
-            'rating'           => 'Ocena',
-            'ratings'          => 'Ocene',
+            'rating'           => 'Ocjena',
+            'ratings'          => 'Ocjene',
             'submit-review'    => 'Pošalji recenziju',
-            'success'          => 'Recenzija uspešno poslata.',
+            'success'          => 'Recenzija uspješno poslata.',
             'title'            => 'Naslov',
             'translate'        => 'Prevedi',
             'translating'      => 'Prevođenje...',
@@ -625,7 +625,7 @@ return [
         'related-product-title'  => 'Slični proizvodi',
         'review'                 => 'Recenzije',
         'tax-inclusive'          => 'Uključujući sve poreze',
-        'up-sell-title'          => 'Pronašli smo i druge proizvode koji bi vam se mogli dopasti!',
+        'up-sell-title'          => 'Pronašli smo i druge proizvode koji bi Vam se mogli dopasti!',
     ],
 
     'type' => [
@@ -677,11 +677,11 @@ return [
     'already-added'      => 'Proizvod je već dodat na listu za poređenje',
     'delete-all'         => 'Obriši sve',
     'empty-text'         => 'Nemate proizvode na listi za poređenje',
-    'item-add-success'   => 'Proizvod uspešno dodat na listu za poređenje',
+    'item-add-success'   => 'Proizvod uspJešno dodat na listu za poređenje',
     'product-compare'    => 'Poređenje proizvoda',
     'remove-all-success' => 'Svi proizvodi uspešno uklonjeni.',
     'remove-error'       => 'Nešto je pošlo po zlu, pokušajte ponovo kasnije.',
-    'remove-success'     => 'Proizvod uspešno uklonjen.',
+    'remove-success'     => 'Proizvod uspješno uklonjen.',
     'title'              => 'Poređenje proizvoda',
 ],
 
@@ -690,7 +690,7 @@ return [
         'info'          => 'Poslaćemo vam detalje narudžbine i informacije za praćenje na e-mail',
         'order-id-info' => 'ID vaše narudžbine je #:order_id',
         'thanks'        => 'Hvala vam na narudžbini!',
-        'title'         => 'Narudžbina uspešno izvršena',
+        'title'         => 'Narudžbina uspješno izvršena',
     ],
 
     'cart' => [
@@ -700,7 +700,6 @@ return [
         'inactive'                  => 'Proizvod je deaktiviran i uklonjen iz korpe.',
         'inventory-warning'         => 'Tražena količina nije dostupna, pokušajte ponovo kasnije.',
         'item-add-to-cart'          => 'Proizvod uspešno dodat',
-    ],
 'minimum-order-message'     => 'Minimalni iznos porudžbine je',
 'missing-fields'            => 'Nedostaju neka obavezna polja za ovaj proizvod.',
 'missing-options'           => 'Opcije nedostaju za ovaj proizvod.',
@@ -709,11 +708,11 @@ return [
 'return-to-shop'            => 'Povratak u prodavnicu',
 'rule-applied'              => 'Pravilo za korpu je primenjeno',
 'select-hourly-duration'    => 'Izaberite trajanje termina od jedan sat.',
-'success-remove'            => 'Proizvod je uspešno uklonjen iz korpe.',
+'success-remove'            => 'Proizvod je uspješno uklonjen iz korpe.',
 'suspended-account-message' => 'Vaš nalog je suspendovan.',
 
 'index' => [
-    'bagisto'                  => 'Bagisto',
+    'bagisto'                  => 'BitLab',
     'cart'                     => 'Korpa',
     'continue-shopping'        => 'Nastavi kupovinu',
     'empty-product'            => 'Nemate proizvoda u korpi.',
@@ -722,7 +721,7 @@ return [
     'items-selected'           => ':count stavki izabrano',
     'move-to-wishlist-success' => 'Izabrane stavke su uspešno prebačene na listu želja.',
     'move-to-wishlist'         => 'Premesti na listu želja',
-    'price'                    => 'Cena',
+    'price'                    => 'Cijena',
     'product-name'             => 'Naziv proizvoda',
     'quantity-update'          => 'Količina je uspešno ažurirana',
     'quantity'                 => 'Količina',
@@ -774,8 +773,9 @@ return [
         'select-country' => 'Izaberite zemlju',
         'select-state'   => 'Izaberite državu/pokrajinu',
         'state'          => 'Država/Pokrajina',
-        'title'          => 'Procena dostave i poreza',
+        'title'          => 'Procjena dostave i poreza',
     ],
+      ],
 ],
 'onepage' => [
     'address' => [
@@ -841,8 +841,8 @@ return [
     'already-applied' => 'Kupon je već primenjen.',
     'applied'         => 'Kupon je primenjen',
     'apply'           => 'Primeni kupon',
-    'apply-issue'     => 'Kupon ne može biti primenjen.',
-    'button-title'    => 'Primeni',
+    'apply-issue'     => 'Kupon ne može biti primijenjen.',
+    'button-title'    => 'Primijeni',
     'code'            => 'Kod kupona',
     'discount'        => 'Popust kupona',
     'enter-your-code' => 'Unesite kod',
@@ -851,7 +851,7 @@ return [
     'remove'          => 'Ukloni kupon',
 ],
 'subtotal'        => 'Međuzbir',
-'success-apply'   => 'Kupon je uspešno primenjen.',
+'success-apply'   => 'Kupon je uspješno primijenjen.',
 
 'login' => [
     'email'    => 'Email',
@@ -863,9 +863,9 @@ return [
 
 'home' => [
     'contact' => [
-        'about'         => 'Ostavite nam poruku i odgovorićemo vam što je pre moguće.',
-        'desc'          => 'Šta vam je na umu?',
-        'describe-here' => 'Opišite ovde',
+        'about'         => 'Ostavite nam poruku i odgovorićemo Vam što je prije moguće.',
+        'desc'          => 'Šta Vam je na umu?',
+        'describe-here' => 'Opišite ovdje',
         'email'         => 'Email',
         'message'       => 'Poruka',
         'name'          => 'Ime',
@@ -875,12 +875,12 @@ return [
     ],
 
     'index' => [
-        'offer'               => 'Ostvarite DO 40% POPUSTA na vašu prvu porudžbinu – KUPITE ODMAH',
-        'resend-verify-email' => 'Ponovo pošalji verifikacioni email',
-        'verify-email'        => 'Potvrdite vaš email nalog',
+        'offer'               => 'Ostvarite DO 40% POPUSTA na Vašu prvu porudžbinu – KUPITE ODMAH',
+        'resend-verify-email' => 'Ponovo pošaljite verifikacioni email',
+        'verify-email'        => 'Potvrdite Vaš email nalog',
     ],
 
-    'thanks-for-contact' => 'Hvala što ste nas kontaktirali. Uskoro ćemo vam odgovoriti.',
+    'thanks-for-contact' => 'Hvala što ste nas kontaktirali. Uskoro ćemo Vam odgovoriti.',
 ],
 
 'partials' => [
@@ -893,7 +893,7 @@ return [
     'go-to-home' => 'Idi na početnu stranicu',
 
     '404' => [
-        'description' => 'Ups! Stranica koju tražite je na odmoru. Izgleda da nismo pronašli ono što ste tražili.',
+        'description' => 'Ups! Stranica koju tražite nije dostupna. Izgleda da nismo pronašli ono što ste tražili.',
         'title'       => '404 Stranica nije pronađena',
     ],
 
@@ -903,7 +903,7 @@ return [
     ],
 
     '403' => [
-        'description' => 'Ups! Ova stranica je zabranjena. Izgleda da nemate dozvolu za pristup ovom sadržaju.',
+        'description' => 'Ups! Pristup ovoj stranici je zabranjen. Izgleda da nemate dozvolu za pristup ovom sadržaju.',
         'title'       => '403 Zabranjeno',
     ],
 
@@ -936,7 +936,7 @@ return [
 
 'emails' => [
     'dear'   => 'Poštovani :customer_name',
-    'thanks' => 'Ako vam je potrebna bilo kakva pomoć, kontaktirajte nas putem <a href=":link" style=":style">:email</a>.<br/>Hvala!',
+    'thanks' => 'Ako Vam je potrebna bilo kakva pomoć, kontaktirajte nas putem <a href=":link" style=":style">:email</a>.<br/>Hvala!',
 
     'customers' => [
         'registration' => [
@@ -950,7 +950,7 @@ return [
         ],
 
         'forgot-password' => [
-            'description'    => 'Ovu poruku ste dobili jer smo primili zahtev za resetovanje lozinke za vaš nalog.',
+            'description'    => 'Ovu poruku ste dobili jer smo primili zahtjev za resetovanje lozinke za vaš nalog.',
             'greeting'       => 'Zaboravljena lozinka!',
             'reset-password' => 'Resetuj lozinku',
             'subject'        => 'Email za resetovanje lozinke',
@@ -1045,7 +1045,7 @@ return [
 'grand-total'                => 'Ukupan iznos',
 'name'                       => 'Ime',
 'payment'                    => 'Plaćanje',
-'price'                      => 'Cena',
+'price'                      => 'Cijena',
 'qty'                        => 'Količina',
 'shipping-address'           => 'Adresa za isporuku',
 'shipping-handling-excl-tax' => 'Dostava i rukovanje (bez poreza)',
