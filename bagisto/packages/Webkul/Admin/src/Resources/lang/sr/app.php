@@ -4511,7 +4511,7 @@ return [
 
 'emails' => [
     'dear' => 'Poštovani :admin_name',
-    'thanks' => 'Ako vam je potrebna bilo kakva pomoć, kontaktirajte nas na <a href=":link" style=":style">:email</a>.<br/>Hvala!',
+    'thanks' => 'Hvala!',
 
     'admin' => [
         'forgot-password' => [

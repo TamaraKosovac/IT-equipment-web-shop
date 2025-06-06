@@ -936,7 +936,7 @@ return [
 
 'emails' => [
     'dear'   => 'Poštovani :customer_name',
-    'thanks' => 'Ako Vam je potrebna bilo kakva pomoć, kontaktirajte nas putem <a href=":link" style=":style">:email</a>.<br/>Hvala!',
+    'thanks' => 'Hvala!',
 
     'customers' => [
         'registration' => [
