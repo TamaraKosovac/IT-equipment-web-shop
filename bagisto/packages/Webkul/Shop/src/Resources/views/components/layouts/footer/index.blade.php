@@ -45,6 +45,10 @@
                 @endforeach
             @endif
         </div>
+        <a href="{{ route('shop.home.index') }}" class="footer-logo">
+<img src="{{ asset('storage/channel/1/f2jeS443WV9REYqqI6s5tup4ajAwYiU2qyZb2ap4.png') }}" alt="Logo" style="height: 70px;">
+</a>
+
 
         <!-- For Mobile view -->
         <x-shop::accordion
