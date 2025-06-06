@@ -936,6 +936,7 @@ return [
 
 'emails' => [
     'dear'   => 'Poštovani :customer_name',
+    'help' => 'Ako vam je potrebna bilo kakva pomoć, kontaktirajte nas na: :link',
     'thanks' => 'Hvala!',
 
     'customers' => [

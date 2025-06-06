@@ -4469,6 +4469,7 @@ return [
 
     'emails' => [
         'dear'   => 'Dear :admin_name',
+        'help' => 'If you need any help, please contact us at: :link',
         'thanks' => 'Thanks!',
 
         'admin' => [
