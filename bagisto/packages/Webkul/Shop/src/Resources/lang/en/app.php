@@ -934,7 +934,8 @@ return [
 
     'emails' => [
         'dear'   => 'Dear :customer_name',
-        'thanks' => 'If you need any kind of help please contact us at <a href=":link" style=":style">:email</a>.<br/>Thanks!',
+        'help' => 'If you need any help, please contact us at: :link',
+        'thanks' => 'Thanks!',
 
         'customers' => [
             'registration' => [
