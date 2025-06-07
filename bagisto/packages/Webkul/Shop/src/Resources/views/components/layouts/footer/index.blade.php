@@ -45,6 +45,10 @@
                 @endforeach
             @endif
         </div>
+        <a href="{{ route('shop.home.index') }}" class="footer-logo">
+<img src="{{ asset('storage/channel/1/bitlabLogo.png') }}" alt="Logo" style="height: 80px;">
+</a>
+
 
         <!-- For Mobile view -->
         <x-shop::accordion

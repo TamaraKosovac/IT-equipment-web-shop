@@ -276,4 +276,9 @@
             </span>
         </div>
     </div>
+    <div style="margin-top: 40px; font-size: 16px; color: #384860;">
+    {!! __('admin::app.emails.help', [
+        'link' => '<a href="http://127.0.0.1:8000/page/about-us" style="color: #2969FF;">http://127.0.0.1:8000/page/about-us</a>'
+    ]) !!}
+    </div>
 @endcomponent
