@@ -46,7 +46,7 @@
             @endif
         </div>
         <a href="{{ route('shop.home.index') }}" class="footer-logo">
-<img src="{{ asset('storage/channel/1/f2jeS443WV9REYqqI6s5tup4ajAwYiU2qyZb2ap4.png') }}" alt="Logo" style="height: 70px;">
+<img src="{{ asset('storage/channel/1/bitlabLogo.png') }}" alt="Logo" style="height: 80px;">
 </a>
 
 
