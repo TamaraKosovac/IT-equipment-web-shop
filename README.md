@@ -1,4 +1,4 @@
-# 💻 IT Equipment Web Shop
+# 💻 IT equipment web shop
 
 A custom IT product webshop developed using Laravel, Vue.js and Bagisto eCommerce platform.
 
