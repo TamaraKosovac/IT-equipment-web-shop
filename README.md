@@ -36,7 +36,7 @@ An IT product webshop developed using Laravel, Vue.js and the Bagisto eCommerce 
 - Dashboard with sales and user analytics
 - Inventory management
 - Discount and promotion management
-- Admin and user activity logging
+- Monitoring and logging of admin and user actions
 
 
 ![screenshot](screenshots/picture4.png)
