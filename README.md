@@ -4,7 +4,7 @@ An IT product webshop developed using Laravel, Vue.js and the Bagisto eCommerce 
 
 ---
 
-## 👥 User Side
+## 👥 User Panel
 
 - Product browsing and search
 - Product details with images and specifications
