@@ -1,6 +1,6 @@
 # 💻 IT equipment web shop
 
-An IT product webshop developed using Laravel, Vue.js and the Bagisto eCommerce platform.
+An IT product webshop for managing sales and customer interaction, developed using Laravel, Vue.js and the Bagisto eCommerce platform.
 
 ---
 
